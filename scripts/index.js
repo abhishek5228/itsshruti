@@ -4,8 +4,8 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'Jan 29, 2020',
-  name: 'Darlene'
+  birthdate: 'Mar 17, 2021',
+  name: 'Fuchki'
 };
 
 function hideEverything() {
@@ -47,9 +47,10 @@ x = setInterval(function() {
     ctx = c.getContext('2d'),
     hw = w / 2, // half-width
     hh = h / 2,
+	
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name],
-      strings: ['Okay... I will  try to make this as small as possible.. The last few months have been amazing because of you.. You kept irritating me everyday but I sorta enjoyed it..Just sorta though 🙄 You really did change me for the better and have helped me get through a lot of shit... I cannot thank you enough for everything you have done and can only say that I LOVE YOU and I miss you a lot.. And and and I almost forgot.. Happy Birthday❤..'],
+      strings: ['HAPPY', 'BIRTHDAY!', config.name,'Thanks'],
+	  
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
@@ -398,8 +399,6 @@ x = setInterval(function() {
       y - size / 2,
       x - size / 4,
       y - size,
-      x,
-      y - size
     );
     ctx.bezierCurveTo(x + size / 4, y - size, x + size / 2, y - size / 2, x, y);
   }
@@ -500,3 +499,5 @@ x = setInterval(function() {
   //     console.log("happy birthday");
   // }
 }, second);
+
+document.write("<h4>❤❤❤❤❤❤❤❤❤❤❤❤The last few months have been amazing because of you..................................................... <br>You kept irritating me everyday and me too but I sorta enjoyed it..Just sorta though 🙄............. <br>You really did change me some how for the better and have helped me get through a lot of shit...<br> I cannot thank you enough for everything you've done by staying with me and can only say that <br>THANK YOU ❤❤❤❤  <br>I miss you a lot..<br> And and and I almost forgot.. <br>Happy Birthday❤❤❤❤❤❤❤❤❤❤❤❤..</h4>");
