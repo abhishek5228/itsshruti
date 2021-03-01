@@ -3,6 +3,13 @@
   margin: 0;
   padding: 0;
 }
+.happiness {
+	color: #874562;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 24px;
+}
 .twitter {
 	color: #874562;
 }
