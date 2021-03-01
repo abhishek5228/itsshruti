@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+.twitter {
+	color: #874562;
+}
 canvas {
   position: absolute;
   top: 0;
