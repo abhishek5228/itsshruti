@@ -48,7 +48,7 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name,'Okay... I will try to make this as small as possible.. The last few months have been amazing because of you.. You kept irritating me everyday but I sorta enjoyed it..Just sorta though 🙄 You really did change me for the better and have helped me get through a lot of shit... I cannot thank you enough for everything you have done and can only say that Thank You and I miss you a lot.. And and and I almost forgot.. Happy Birthday❤..'],
+      strings: ['HAPPY', 'BIRTHDAY!', config.name,'Okay... I will try to make this as small as possible','The last few months have been amazing because of you','You kept irritating me everyday but I sorta enjoyed it','Just sorta though 🙄 You really did change me for the better and have'.'helped me get through a lot of shit...','I cannot thank you enough for everything you have done',' and can only say that Thank You and I miss you a lot..',' And and and I almost forgot.. Happy Birthday❤..'],
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
